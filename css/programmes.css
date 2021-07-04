@@ -1,0 +1,110 @@
+
+.programmes-hero{   
+    background-image: url("../images/mojave_dynamic_14.jpeg");
+    height: 50vh;
+    background-position: top;
+    color: white;
+}
+
+.overlay{
+    background: linear-gradient(45deg, #212529, #07659c1c,#07659c1c, #212529);
+    min-height: 50vh;
+    width: 100%; 
+    /* background-color: red; */
+}
+
+.hero-main-text.p-h{
+    padding: 50px 0px 5px 0px;
+    color: #07659c;
+    text-shadow: 1px 1px 0.2px white;
+}
+
+.hero-sub-text.p-h{
+    width: 70%;
+    font-weight: lighter; 
+    text-shadow: 1px 1px 1px black;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+.p-h-items{
+    display: flex; 
+    width: 100%;
+}
+
+.p-h-items a.carousel-link{
+    margin: 0px 5px;
+}
+
+
+.run-prog{
+    background: var(--bs-blue);
+    height: 30vh;
+    border: 1px solid var(--bs-light);
+}
+.phd-carousel-inner .carousel-item{
+    height: 300px !important;
+    object-fit: contain;
+}
+
+.phd-programs{
+    width: 100%;
+}
+
+.card{
+    min-width: 30rem !important; 
+    border-radius: 0px !important;
+    /* background-color: #07659c !important; */
+}
+
+.programtitle{
+    /* font-weight: bolder; */
+    color:  #07659c;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.card-body{
+    font-weight: normal; 
+}
+
+h6{
+    color: unset;
+}
+
+.card:hover{
+    background: #07659c !important; 
+    color: var(--bs-light) !important;
+    transition: 0.8s;
+    font-weight: bolder !important;
+    border-color: var(--bs-light) !important;
+}
+
+.card:hover div.programtitle{
+    color: var(--bs-light);
+    transition: 0.8s;
+}
+
+.scroll-container{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll !important;
+    scroll-behavior: smooth;
+   
+}
+
+.scroll-container::-webkit-scrollbar{
+    border-width: 3px !important;
+    width: 5px !important;
+    border-radius: 5px !important;
+}
+
+.scroll-container::-webkit-scrollbar-track{
+    background-color: #fff; 
+}
+
+.scroll-container::-webkit-scrollbar-thumb{
+    background-color: #07659c;
+}

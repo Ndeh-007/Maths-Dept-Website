@@ -1,0 +1,24 @@
+.people-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.person-card{
+    max-width: 18rem;
+    margin: 10px;
+}
+
+a.person-card .card-title{
+    color: var(--bs-dark) !important;
+}
+
+.person-card:hover{
+    background-color: #07669c;
+    color: white !important;
+    transform: scale(1.05);
+}
+
+.person-card:hover .text-muted{
+    color: white !important;
+    font-weight: unset;
+}

@@ -1,0 +1,43 @@
+p{
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.person-info-card .card img{
+    width: 100%;
+}
+
+.card .card-body .items{
+    display: flex;
+    flex-direction: column;
+}
+
+.items div{
+    width: 100%; 
+    margin: 0px;
+    height: 100%;
+}
+
+.card-body{
+    padding: 0px;
+}
+
+.name-space{
+    color: white;
+    background: #07659c;
+    border-top-left-radius:  0px !important;
+    border-bottom-left-radius:  0px !important;
+    font-size: 30px;
+}
+
+.card-footer{
+    background:#fff !important;
+}
+
+.card{
+    font-size: larger;
+}
+
+i{
+    color: unset;
+}

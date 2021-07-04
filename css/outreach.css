@@ -1,0 +1,26 @@
+.outreach-hero {
+  background-image: url("../images/wallpaperflare.com_wallpaper\(17\).jpg");
+  max-height: 50vh;
+  background-position: center;
+  color: white;
+}
+
+.hero-main-text.o-h {
+  padding: 50px 0px 5px 0px;
+  color: #07659c;
+  text-shadow: 1px 1px 0.2px white;
+}
+
+.hero-sub-text.o-h {
+  width: 70%;
+  font-weight: 400;
+  text-shadow: 1px 1px 1px black;
+  font-size: 30px;
+}
+
+.overlay {
+  position: relative;
+  background: linear-gradient(45deg, #212529, #07659c1c, #07659c1c, #212529);
+  height: 100%;
+  width: 100%;
+}

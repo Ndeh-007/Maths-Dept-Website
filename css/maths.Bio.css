@@ -1,0 +1,132 @@
+.header-scrolled{
+    position: relative;
+    transition: 1s;
+    width: 100%;
+    float: left;
+}
+
+.nav-custom{
+    position: fixed;
+    float: left;
+    width: 100%;
+}
+
+.staff-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    margin-top: 30px;
+    cursor: pointer;
+    width: 20rem;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 10px #2125298f;
+    /* border: 1px solid #21252981; */
+}
+
+.staff-cards a.staff-ref{
+    color: black !important;
+    text-decoration: none;
+}
+
+a .card{
+    color: black !important;
+}
+
+.card-header{
+    color: #07669c;
+}
+
+.card-body{
+    color: #6c757d !important;
+}
+
+a:active, a:focus{
+    color: black !important;
+}
+
+.form-control{
+    color: black !important;
+}
+
+
+.links li a{
+    color: #07669c;
+
+}
+
+.links li a:hover{
+    color: var(--bs-yellow);
+    text-decoration: underline !important;
+}
+
+.programmes-hero{   
+    background-image: url("../images/wallpaperflare.com_wallpaper\(17\).jpg");
+    height: 50vh;
+    background-position: center;
+    color: white;
+}
+
+.overlay{
+    background: linear-gradient(45deg, #212529, #07659c1c,#07659c1c, #212529);
+    min-height: 50vh;
+    width: 100%; 
+    /* background-color: red; */
+}
+
+.hero-main-text.p-h{
+    padding: 100px 0px 5px 0px;
+    color: #07659c;
+    /* text-shadow: 1px 1px 0.2px white; */
+}
+
+.hero-sub-text.p-h{
+    width: 70%;
+    font-weight: lighter; 
+    text-shadow: 1px 1px 1px black;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.p-h-items{
+    display: flex; 
+    width: 100%;
+}
+
+.p-h-items a.carousel-link{
+    margin: 0px 5px;
+}
+
+nav.warning-nav{
+    height: max-content; 
+    text-align: center;
+    padding: 10px 0px;
+    background: linear-gradient(45deg, #212529, #07659c,#07659c, #212529);
+}
+
+.warning-message a{
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: var(--bs-yellow);
+    font-size: 30px;
+}
+
+.warning-message a:hover{
+    color: #ffd108; 
+    font-weight: 900;
+    /* text-decoration: underline !important; */
+    transition: 0.5s;
+    font-size: 35px;
+}
+
+
+.warning-message a:active,
+.warning-message a:focus{
+    color: #ffd108;
+}

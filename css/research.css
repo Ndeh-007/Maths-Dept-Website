@@ -1,0 +1,115 @@
+.research-hero{
+    background-image: url("../images/wallpaperflare.com_wallpaper\(9\).jpg"); 
+    max-height: 50vh; 
+    background-position: left;
+    text-align: left;
+    color: white;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+.overlay{
+    background: linear-gradient(45deg, #212529, #07659c1c,#07659c1c, #212529);
+    max-height: 50vh;
+    width: 100%;  
+}
+
+.r-h-message{
+    width: 50%;
+}
+
+.hero-main-text.r-h{
+    padding: 50px 0px 5px 0px;
+    color: #07659c;
+    text-shadow: 1px 1px 1px white;
+}
+
+.hero-sub-text.r-h{
+    width: 70%;
+    font-weight: lighter; 
+    text-shadow: 1px 1px 1px black;
+    font-size: 35px;
+}
+
+.r-h-items{
+    display: flex; 
+    width: 100%;
+}
+
+.r-h-items a.carousel-link{
+    margin: 0px 5px;
+}
+
+.research-field-image{
+    /* max-height: 20vh; */
+    object-fit: contain;
+}
+
+.research-field-image>img{
+    height: 100%;
+    width: 100%;
+}
+
+.right-side-nav{
+    background: linear-gradient(135deg, #07659c, #07659c,#07659c, #212529);
+    /* background-color: #8f9194; */
+    color: white;
+    height: 100%;
+}
+
+.side-nav-title{
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    color: var(--bs-light);
+}
+
+.re-items{
+    width: 100%;
+    height: max-content;
+}
+
+.re-item{
+    height: max-content;
+    width: 100%;
+    padding: 10px 15px;
+    border-top: 1px solid white;
+    /* border-bottom: 1px solid white; */
+}
+
+.re-items:last-child{
+    border-bottom: 1px solid white;
+}
+
+a div.re-item {
+    color: white;
+    text-decoration: none;
+}
+
+.re-item:hover,.re-item:active{
+    background-color: #07659c; 
+    padding: 12px 17px;
+    transition: 0.25s;
+    font-weight: bolder;
+    border-left: 5px solid var(--bs-yellow);
+}
+
+.short-name{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .right-col,.col-md-3{
+        width: 100% !important;
+    }
+    .col-9{
+        width: 100% !important;
+    }
+    .long-name{
+        display: none;
+    }
+    .short-name{
+        display: unset;
+    }
+}
+
+

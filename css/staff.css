@@ -1,0 +1,36 @@
+.staff-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 10px #2125298f;
+    /* border: 1px solid #21252981; */
+}
+
+.staff-cards a.staff-ref{
+    color: black !important;
+    text-decoration: none;
+}
+
+a{
+    color: black !important;
+}
+
+.card-body{
+    color: #6c757d !important;
+}
+
+a:active, a:focus{
+    color: black !important;
+}
+
+.form-control{
+    color: black !important;
+}

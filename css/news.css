@@ -1,0 +1,84 @@
+#newsCarousel div.carousel-message>h1{
+    color: #07659c;
+    text-shadow: 1px 1px 1px white;
+}
+
+main{
+    width: 100%;
+}
+
+.news-container{
+    /* overflow-y: none; */
+    margin: 0px auto !important;
+    width: 90%;
+ }
+
+.news-header{
+    color: #07659c !important;
+}
+
+.event-item{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.event-date{
+    justify-content: center;
+    padding: 0px 10px;
+    border-right: 1px solid white ;
+    margin-right: 10px;
+    width: fit-content;
+}
+
+.event-month{
+    text-align: center;
+}
+
+.event-day{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.event-text{
+    text-align: center;
+}
+ 
+
+.news-item-img-holder{
+   height: 200px;
+   width: 200px;
+   object-fit: contain;
+   border: 1px solid black;
+   flex: auto;
+}
+
+.news-description{
+    flex: auto;
+}
+
+.news-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-card{
+    margin: 10px;
+    width: 18rem;
+    height: fit-content;
+}
+
+.date{
+    float: right;
+    margin-top: 20px !important;
+}
+
+@media only screen and (max-width: 990px) {
+    .news-card{
+      width: 100% !important;
+      /* flex-wrap: nowrap; */
+      display: unset;
+    }
+  }
+  

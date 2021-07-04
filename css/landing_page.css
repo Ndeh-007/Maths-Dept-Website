@@ -1,0 +1,27 @@
+
+.font-style {
+  font-family: Canela Web;
+  font-size: 500%;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 400;
+}
+/* .d-flex {
+  border: 2% solid #dddddd;
+} */
+/* .footer {
+  position: fixed;
+  left: 0;
+    bottom: 0;
+  width: 100%;
+  background-color: #4b95c6;
+  color: white;
+  text-align: center;
+} */
+.blue_box {
+  background: #4b95c6 repeat-x left bottom;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #e0f1fc;
+  padding: 20px;
+}
