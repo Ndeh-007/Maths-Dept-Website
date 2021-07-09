@@ -31,6 +31,14 @@ nav#nav {
   background-position: center;
 }
 
+nav#sub-nav{
+  font-size: 30px;
+  height: max-content;
+  background-color: #07669c;
+  color: #07669c;
+  padding: 10px 0px;
+}
+
 footer#footer {
   background: linear-gradient(135deg, #07669c, var(--bs-dark));
   color: white !important;
@@ -112,7 +120,7 @@ a.hst-link:hover {
 }
 
 .carousel-item {
-  height: 60vh;
+  height: 82vh;
   object-fit: contain;
 }
 
@@ -541,11 +549,7 @@ a.nav-link.active {
     font-size: 12px;
     font-weight: bold;
   }
-
-  #landingPageCarousel {
-    display: none;
-  } 
-
+ 
   div.prog-name {
     font-size: 15px !important;
     width: 100% !important;
