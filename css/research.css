@@ -97,6 +97,10 @@ a div.re-item {
     display: none;
 }
 
+.prog-name.long-prog-name{
+    font-size: 30px;
+}
+
 @media screen and (max-width: 800px) {
     .right-col,.col-md-3{
         width: 100% !important;
