@@ -1,6 +1,7 @@
-.people-cards{
+.main-staff-cards{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .person-card{
