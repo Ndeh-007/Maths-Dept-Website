@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Department of Mathematics</title>
+
+    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="../../css/programmes.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <script src="https://use.fontawesome.com/10f8e3db66.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
+    <script src="../../js/mathsdept.js"></script>
+</head>
+
+<body>
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid container">
+            <a class="navbar-brand" href="./index.html">
+                <div class="header-info d-flex">
+                    <div class="img-holder">
+                        <img src="../../images/ub_logo_extract.png" alt="the university of Buea">
+                    </div>
+                    <div class="header-text">
+                        <h4 class="long-name">The Department of Mathematics</h4>
+                        <div class="short-name">Department of Mathematics</div>
+                        <h6>university of Buea</h6>
+                    </div>
+                </div>
+            </a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- this tag was intentionally left without content -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                </ul>
+
+                <div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link  text-muted" aria-current="page" href="../../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-muted" aria-current="page" href="./research.html">Research</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link text-muted" aria-current="page" href="./outreach.html">Outreach</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link text-muted" aria-current="page" href="./news.html">News &
+                                Events</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-muted dropdown-toggle" role="button" id="navbarDropdownBioMathsUnit" aria-current="page" href="./mathsBio.html">
+                                BioMaths Unit</a>
+                            <ul class="dropdown-menu" id="d-down" aria-labelledby="navbarDropdownBioMathsUnit">
+                                <li><a class="dropdown-item" href="./mathsBio.html#f1">Team</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./mathsBio.html#f2">Collaborators</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./mathsBio.html#f3">Other Units</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-muted dropdown-toggle" role="button" id="navbarDropdownProgrammes" aria-current="page" href="#">
+                                Programmes</a>
+                            <ul class="dropdown-menu" id="p-down" aria-labelledby="navbarDropdownBioMathsUnit">
+                                <li><a class="dropdown-item" href="./Bsc_programme.html">Bsc</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./Msc_programme.html">Msc</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./PhD_programme.html">PhD</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-muted" href="./people.html">
+                                Staff
+                            </a>
+                            <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdownCollaborators">
+                                <li><a class="dropdown-item" href="#">Administrative Staff</a></li>
+                                <li><a class="dropdown-item" href="#">Teaching Staff</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="programmes-hero">
+        <div class="overlay">
+            <div class="r-h-message container">
+                <div class="hero-main-text o-h">Our Programmes</div>
+                <div class="hero-sub-text o-h">
+                    Ranging from Bachelors through Masters to Ph.D, the different programs are structured to guide the student to in their studies.
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="container">
+        <div class="prog-holder mt-5" id="f1">
+            <div class=" prog-name">
+                PROGRAMME OBJECTIVES
+            </div>
+            <div class="col-line"></div>
+        </div>
+        <div class="row">
+            This programme is aimed at:
+            <ol>
+                <li>
+                    Creating a vibrant research environment in mathematics and related fields at the University of Buea.
+                </li>
+                <li>
+                    Providing a basis for training man power for industries and higher educational institutions.
+                </li>
+                <li>
+                    Opening up possibilities for scientific collaboration with partner institutes at the level of students’ training and supervision.
+                </li>
+                <li>Providing advanced training in mathematics and its applications to postgraduate students having a good M.Sc. degree (with thesis) or its equivalent in mathematics or any other related discipline
+                </li>
+            </ol>
+            <div class="prog-holder mt-5" id="f1">
+                <div class=" prog-name">
+                    ADMISSION REQUIREMENTS
+                </div>
+                <div class="col-line"></div>
+            </div>
+            <div class="row">
+                A prerequisite for admission into the programme is a good M.Sc. (with thesis) or its equivalent in mathematics or any other related discipline. Of course, students with previous research experience will have an additional advantage.
+            </div>
+            <div class="prog-holder mt-5" id="f1">
+                <div class=" prog-name">
+                    GRADUATION REQUIREMENTS
+                </div>
+                <div class="col-line"></div>
+            </div>
+            <div class="row">
+                <p> The first year of the programme is dedicated to course work based on the credit system and a student is expected to earn at least 60 credits and pass a comprehensive examination, before proceeding to write a doctoral thesis. Out of the
+                    60 credits, at least 24 and at most 36 must be from one speciality </p>
+                <p>
+                    Courses are structured in the form of lectures, discussions or seminars
+                </p>
+                <p>
+                    Course work shall be examined through written examination, written assignments and seminar presentations
+                </p>
+                <p>
+                    Each student is expected, at the end of his/her programme, to publicly defend his/her thesis before an appointed panel. The Ph.D. degree in mathematics will be awarded only on the recommendation of the panel.
+                </p>
+            </div>
+            <div class="prog-holder mt-5" id="f1">
+                <div class=" prog-name">
+                    EMPLOYMENT OPPORTUNITIES
+                </div>
+                <div class="col-line"></div>
+            </div>
+            <div class="row">
+                The programme is conceived in such a way that graduates, depending on their specific specialities, can seek for employment in Institutions of Higher Learning, Industries, Banking and Insurance Sector or in the Social Sector. Furthermore, graduates will
+                be endowed with sufficient skills to be self-employed as consultants or soft-ware developers.
+
+            </div>
+            <div class="prog-holder mt-5" id="f1">
+                <div class=" prog-name">
+                    LIST OF COURSES
+                </div>
+                <div class="col-line"></div>
+            </div>
+            <div class="row">
+                The programme has been made particularly interesting and attractive by introducing a repository of courses from which students can freely choose courses that best fit their individual ambitions and career perspectives. Each student is assigned, during
+                admission, a thesis supervisor/supervisors, who shall assist him/her select a specific curriculum in the programme according to his/her personal interests and previous training.
+
+                <div class="col-12 p-2">
+                    <h1>
+                        COMPULSORY COURSES
+                    </h1>
+                    <ul>
+                        <li>
+                            MAT785: Research Methodology and Communication Skills
+                        </li>
+                        <li>
+                            MAT798 : PhD Thesis Research in Mathematics
+                        </li>
+                    </ul>
+                </div>
+                <h1>
+                    ELECTIVE COURSES
+                </h1>
+                <div class="col-sm-6">
+                    <h3>FIRST SEMESTER COURSES</h3>
+                    <ul>
+                        <li>
+                            MAT703: Advanced Theory of Rings and
+                        </li>
+                        <li> MAT705: Category Theory</li>
+                        <li> MAT707: Commutative Algebra</li>
+                        <li> MAT709: Topics in Real Analysis </li>
+                        <li> MAT711: Topics in Complex Analysis</li>
+                        <li> MAT713: Topics in Functional Analysis</li>
+                        <li> MAT715: Topics in Partial Differential Equationss</li>
+                        <li> MAT717: Topics in Numerical Analysis</li>
+                        <li> MAT719: Mathematical Foundation and Elasticity</li>
+                        <li> MAT723: Nonlinear Partial Differential Equations</li>
+                        <li> MAT725: Topics in Nonlinear Ordinary Differential equations</li>
+                        <li> MAT727: Mathematical Modelling</li>
+                        <li> MAT729: Discrete, Difference and Stochastic Modelling</li>
+                        <li> MAT731: Operations Research Practice</li>
+                        <li> MAT733: Advanced Topics in Random Models</li>
+                        <li> MAT735: Discrete System Simulation</li>
+                        <li> MAT737: Semimartingales</li>
+                        <li> MAT739: Statistics of Random Processes I</li>
+                        <li> MAT741: Topics in Hypergeometric Orthogonal Polynomials and Special Functions</li>
+                        <li> MAT 743: Symplectic and Contact Geometry </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <h3>SECOND SEMESTER COURSES</h3>
+                    <ul>
+                        <li>
+                            MAT702: Infinite Abelian Groups
+                        </li>
+                        <li> MAT704: Homological Algebra</li>
+                        <li> MAT706: Algebraic Topology</li>
+                        <li> MAT708: Differential Manifolds</li>
+                        <li> MAT710: Topics in Real,Complex and Functional </li>
+                        <li> MAT712: Topics in Topology</li>
+                        <li> MAT714: Numerical Methods for Partial Differential Equations: The Finite Element Method.
+                        </li>
+                        <li> MAT716: Scientific Computing and Software Development</li>
+                        <li> MAT718: Continuum Models</li>
+                        <li> MAT720: Asymptotic Perturbation Methods</li>
+                        <li> MAT722: Advanced Queuing Topics</li>
+                        <li> MAT724: Applied Statistical Analysis</li>
+                        <li> MAT726: Multi Objective Decision Analysis</li>
+                        <li> MAT728: Introduction to Random Dynamical Systems</li>
+                        <li> MAT730: Statistics of Random Processes II</li>
+                        <li> MAT732: Advanced Topics in Mathematical Programming</li>
+                        <li> MAT734: Discrete and Algorithmic Mathematics</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="prog-holder mt-5" id="f3">
+                <div class=" prog-name">
+                    PROGRAMME STRUCTURE FOR THE B.Sc. HONOURS IN MATHEMATICS
+                </div>
+                <div class="col-line"></div>
+            </div>
+            <div class="row">
+                <!-- <div class = "col-md-7"> -->
+
+                <h1> YEAR: ONE</h1>
+                <h3> FIRST SEMESTER</h3>
+
+                <table>
+                    <tr>
+                        <th> COURSE CODE</th>
+                        <th> COURSE TITLE</th>
+                        <th> CREDIT VALUE</th>
+                        <th> STATUS</th>
+                        <th> L</th>
+                        <th> T</th>
+                        <th> P </th>
+                    </tr>
+                    <tr>
+                        <td> MAT 785</td>
+                        <td>Research Methodology and Scientific Writing </td>
+                        <td> 6</td>
+                        <td>C</td>
+                        <td> 0</td>
+                        <td> 0</td>
+                        <td> 60</td>
+                    </tr>
+                </table>
+                <h3> SPECIALTY: ALGEBRA AND GEOMETRY </h3>
+                <table>
+                    <tr>
+                        <td> MAT 703 </td>
+                        <td> Advanced Theory of Rings and Modules </td>
+                        <td> 6 </td>
+                        <td> E </td>
+                        <td> 39 </td>
+                        <td> 13 </td>
+                        <td> 0 </td>
+                    </tr>
+                    <tr>
+                        <td> MAT 705 </td>
+                        <td> Category Theory </td>
+                        <td> 6 </td>
+                        <td> E </td>
+                        <td> 39</td>
+                        <td> 13</td>
+                        <td> 0 </td>
+                    </tr>
+                    <tr>
+                        <td> MAT 707 </td>
+                        <td> Commutative Algebra </td>
+                        <td> 6 </td>
+                        <td> E </td>
+                        <td> 39</td>
+                        <td> 13</td>
+                        <td> 0 </td>
+                    </tr>
+                    <tr>
+                        <td> MAT 741 </td>
+                        <td> Topics in Hypergeometric Orthognal Polynomials and Special Functions </td>
+                        <td> 6 </td>
+                        <td> E </td>
+                        <td> 39</td>
+                        <td> 13</td>
+                        <td> 0 </td>
+                    </tr>
+                    <tr>
+                        <td> MAT 743 </td>
+                        <td> Simpletic and Contact Geometry </td>
+                        <td> 6 </td>
+                        <td> E </td>
+                        <td> 39</td>
+                        <td> 13</td>
+                        <td> 0 </td>
+                    </tr>
+                </table>
+
+                <h3> SPECIALTY: REAL, COMPLEX AND FUNCTIONAL ANALYSIS </h3>
+                <table>
+                    <tr>
+                        <td> MAT 709 </td>
+                        <td> Topics in Real Analysis </td>
+                        <td> 6 </td>
+                        <td> E </td>
+                        <td> 39 </td>
+                        <td> 13 </td>
+                        <td> 0 </td>
+                    </tr>
+                    <tr>
+                        <td> MAT 711 </td>
+                        <td> Topics in Complex Analysis </td>
+                        <td> 6 </td>
+                        <td> E </td>
+                        <td> 39</td>
+                        <td> 13</td>
+                        <td> 0 </td>
+                    </tr>
+                    <tr>
+                        <td> MAT 713 </td>
+                        <td> Topics in Functional Analysis </td>
+                        <td> 6 </td>
+                        <td> E </td>
+                        <td> 39</td>
+                        <td> 13</td>
+                        <td> 0 </td>
+                    </tr>
+                </table>
+                <h3> SPECIALTY: INDUSTRIAL AND COMPUTATIONAL MATHEMATICS </h3>
+                <table>
+                    <tr>
+                        <td> MAT 715</td>
+                        <td> Topics in PArtial Differential Equations </td>
+                        <td> 6</td>
+                        <td> E </td>
+                        <td> 39</td>
+                        <td> 13 </td>
+                        <td> 0</td>
+                    </tr>
+                    <tr>
+                        <td> MAT 717 </td>
+                        <td> Topics in Numerical Analysis</td>
+                        <td> 6 </td>
+                        <td> E </td>
+                        <td> 39 </td>
+                        <td> 13 </td>
+                        <td> 0 </td>
+                    </tr>
+                    <tr>
+                        <td> MAT 719 </td>
+                        <td> Mathematical Foundation and Elasticity </td>
+                        <td> 6 </td>
+                        <td> E </td>
+                        <td> 39</td>
+                        <td> 13</td>
+                        <td> 0 </td>
+                    </tr>
+                    <tr>
+                        <td> MAT 723 </td>
+                        <td> Nonlinear Partial Differential Equations </td>
+                        <td> 6 </td>
+                        <td> E </td>
+                        <td> 39</td>
+                        <td> 13</td>
+                        <td> 0 </td>
+                    </tr>
+                </table>
+                <h3> SPECIALTY: MATHEMATICAL MODELLING AND APPLICATION </h3>
+                <table>
+                    <tr>
+                        <td> MAT 725 </td>
+                        <td> Topics in Nonlinear Ordinary Differential Equations </td>
+                        <td> 6 </td>
+                        <td> E </td>
+                        <td> 39 </td>
+                        <td> 13 </td>
+                        <td> 0 </td>
+                    </tr>
+                    <tr>
+                        <td> MAT 727 </td>
+                        <td> Mathematical Modelling </td>
+                        <td> 6 </td>
+                        <td> E </td>
+                        <td> 39</td>
+                        <td> 13</td>
+                        <td> 0 </td>
+                    </tr>
+                    <tr>
+                        <td> MAT 729 </td>
+                        <td> Discrete, Difference and Stochastic Modelling </td>
+                        <td> 6 </td>
+                        <td> E </td>
+                        <td> 39</td>
+                        <td> 13</td>
+                        <td> 0 </td>
+                    </tr>
+                </table>
+                <h3> SPECIALTY: OPERATIONS RESEARCH </h3>
+                <table>
+                    <tr>
+                        <td> MAT 731 </td>
+                        <td> Operations Research Practice</td>
+                        <td> 6 </td>
+                        <td> E </td>
+                        <td> 39 </td>
+                        <td> 13 </td>
+                        <td> 0 </td>
+                    </tr>
+                    <tr>
+                        <td> MAT 733 </td>
+                        <td> Advanced Topics in Random Models </td>
+                        <td> 6 </td>
+                        <td> E </td>
+                        <td> 39</td>
+                        <td> 13</td>
+                        <td> 0 </td>
+                    </tr>
+                    <tr>
+                        <td> MAT 735 </td>
+                        <td> Discrete Systems and Simulation </td>
+                        <td> 6 </td>
+                        <td> E </td>
+                        <td> 39</td>
+                        <td> 13</td>
+                        <td> 0 </td>
+                    </tr>
+                </table>
+                <h3> SPECIALTY: PROBABILITY AND STATISTICS </h3>
+                <table>
+                    <tr>
+                        <td> MAT 737 </td>
+                        <td> Semimartingales </td>
+                        <td> 6 </td>
+                        <td> E </td>
+                        <td> 39</td>
+                        <td> 13</td>
+                        <td> 0 </td>
+                    </tr>
+                </table>
+                <!-- </div> -->
+            </div>
+    </main>
+
+    <!-- footer -->
+
+    <footer class="mt-4" id="footer">
+        <div class="container py-5">
+            <div class="row py-4">
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="../../images/ub_logo_extract.png" alt="" width="180" class="mb-3">
+                    <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <ul class="list-inline mt-4">
+                        <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i
+                                    class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i
+                                    class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i
+                                    class="fa fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i
+                                    class="fa fa-pinterest"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i
+                                    class="fa fa-vimeo"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4"></h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="./news.html" class="text-muted">Upcoming Events</a></li>
+                        <li class="mb-2"><a href="./people.html" class="text-muted">Department Staff</a></li>
+                        <li class="mb-2"><a href="./programmes.html" class="text-muted">Programmes</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4">Address</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="#" class="text-muted">University of Buea</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">Molyko, Buea.</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">dept.maths@email.com</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">+237 6XX XXX XXX</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+                    <p class="text-muted mb-4">Subscribe to receive updates from the Department</p>
+                    <div class="p-1 rounded border">
+                        <div class="input-group">
+                            <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0 bg-dark">
+                            <div class="input-group-append">
+                                <button id="button-addon1" type="submit" class="btn btn-link"><i
+                                        class="fa fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small text-muted my-3">
+                        <span>&#169;</span> 2021 <a class="text-warning" href="https://www.ubea.cm"> &nbsp;
+                            University of Buea</a>. All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

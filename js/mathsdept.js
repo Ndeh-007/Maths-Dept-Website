@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", function () {
-    window.addEventListener('scroll', function () {
+document.addEventListener("DOMContentLoaded", function() {
+    window.addEventListener('scroll', function() {
         if (window.scrollY > 50) {
             document.getElementById('warningNav').classList.add('sticky-top');
         } else {
@@ -9,24 +9,44 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
     let hoverItem = document.getElementById("navbarDropdownBioMathsUnit");
-    let hoverContent = document.getElementById('d-down');
+    let hoverContentBioMaths = document.getElementById('d-down');
+    let hoverProgrammes = document.getElementById("navbarDropdownProgrammes");
+    let hoverContentProgrammes = document.getElementById('p-down');
 
     hoverItem.addEventListener('mouseover', () => {
-        hoverContent.style.display = 'block';
-        hoverContent.style.transition = '0.25s'
+        hoverContentBioMaths.style.display = 'block';
+        hoverContentBioMaths.style.transition = '0.25s'
     })
     hoverItem.addEventListener('mouseleave', () => {
-        hoverContent.style.display = 'none';
-        hoverContent.style.transition = '0.25s'
+        hoverContentBioMaths.style.display = 'none';
+        hoverContentBioMaths.style.transition = '0.25s'
     })
-    hoverContent.addEventListener('mouseenter', () => {
-        hoverContent.style.display = 'block';
-        hoverContent.style.transition = '0.25s'
+    hoverContentBioMaths.addEventListener('mouseenter', () => {
+        hoverContentBioMaths.style.display = 'block';
+        hoverContentBioMaths.style.transition = '0.25s'
     })
-    hoverContent.addEventListener('mouseleave', () => {
-        hoverContent.style.display = 'none';
-        hoverContent.style.transition = '0.25s'
+    hoverContentBioMaths.addEventListener('mouseleave', () => {
+        hoverContentBioMaths.style.display = 'none';
+        hoverContentBioMaths.style.transition = '0.25s'
+    })
+
+
+    // hover for programmes
+
+    hoverProgrammes.addEventListener('mouseover', () => {
+        hoverContentProgrammes.style.display = 'block';
+        hoverContentProgrammes.style.transition = '0.25s'
+    })
+    hoverProgrammes.addEventListener('mouseleave', () => {
+        hoverContentProgrammes.style.display = 'none';
+        hoverContentProgrammes.style.transition = '0.25s'
+    })
+    hoverContentProgrammes.addEventListener('mouseenter', () => {
+        hoverContentProgrammes.style.display = 'block';
+        hoverContentProgrammes.style.transition = '0.25s'
+    })
+    hoverContentProgrammes.addEventListener('mouseleave', () => {
+        hoverContentProgrammes.style.display = 'none';
+        hoverContentProgrammes.style.transition = '0.25s'
     })
 });
-
-

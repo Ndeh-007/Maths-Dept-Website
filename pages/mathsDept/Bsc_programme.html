@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Department of Mathematics</title>
+
+    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="../../css/programmes.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <script src="https://use.fontawesome.com/10f8e3db66.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
+    <script src="../../js/mathsdept.js"></script>
+</head>
+
+<body>
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid container">
+            <a class="navbar-brand" href="./index.html">
+                <div class="header-info d-flex">
+                    <div class="img-holder">
+                        <img src="../../images/ub_logo_extract.png" alt="the university of Buea">
+                    </div>
+                    <div class="header-text">
+                        <h4 class="long-name">The Department of Mathematics</h4>
+                        <div class="short-name">Department of Mathematics</div>
+                        <h6>university of Buea</h6>
+                    </div>
+                </div>
+            </a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- this tag was intentionally left without content -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                </ul>
+
+                <div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link  text-muted" aria-current="page" href="../../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-muted" aria-current="page" href="./research.html">Research</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link text-muted" aria-current="page" href="./outreach.html">Outreach</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link text-muted" aria-current="page" href="./news.html">News &
+                                Events</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-muted dropdown-toggle" role="button" id="navbarDropdownBioMathsUnit" aria-current="page" href="./mathsBio.html">
+                                BioMaths Unit</a>
+                            <ul class="dropdown-menu" id="d-down" aria-labelledby="navbarDropdownBioMathsUnit">
+                                <li><a class="dropdown-item" href="./mathsBio.html#f1">Team</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./mathsBio.html#f2">Collaborators</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./mathsBio.html#f3">Other Units</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-muted dropdown-toggle" role="button" id="navbarDropdownProgrammes" aria-current="page" href="#">
+                                Programmes</a>
+                            <ul class="dropdown-menu" id="p-down" aria-labelledby="navbarDropdownBioMathsUnit">
+                                <li><a class="dropdown-item" href="./Bsc_programme.html">Bsc</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./Msc_programme.html">Msc</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./PhD_programme.html">PhD</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-muted" href="./people.html">
+                                Staff
+                            </a>
+                            <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdownCollaborators">
+                                <li><a class="dropdown-item" href="#">Administrative Staff</a></li>
+                                <li><a class="dropdown-item" href="#">Teaching Staff</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="programmes-hero">
+        <div class="overlay">
+            <div class="r-h-message container">
+                <div class="hero-main-text o-h">Our Programmes</div>
+                <div class="hero-sub-text o-h">
+                    Ranging from Bachelors through Masters to Ph.D, the different programs are structured to guide the student to in their studies.
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="container">
+        <div class="prog-holder mt-5" id="f1">
+            <div class=" prog-name">
+                OBJECTIVES OF DEGREE PROGRAMME
+            </div>
+            <div class="col-line"></div>
+        </div>
+        <div class="row">
+            <!-- <div class="col-md-7"> -->
+            Provides students with tools for Mathematical Techniques and thinking, and to expose them to Basic Mathematical Processes and Principles in both Pure and Applied Mathematics. Students who minor in Computer Science are enabled to have a working knowledge
+            of current programming languages and use of various computer tools and packages.
+            <!-- </div> -->
+            <div class="prog-holder mt-5" id="f1">
+                <div class=" prog-name">
+                    ADMISSION REQUIREMENTS
+                </div>
+                <div class="col-line"></div>
+            </div>
+            <div class="row">
+                <!-- <div class="col-md-7"> -->
+                <p> In addition to University and Faculty requirements, students who wish to enrol for a BSc in Mathematics should have obtained at least a C grade in Mathematics at the GCE A’ Level (or equivalent) or a special recommendation of the Department.</p>
+
+                <p> It is the student's responsibility to choose courses in accordance with Departmental and Faculty regulations. All students intending to pursue a degree programme in Mathematics or Statistics should consult the Department which provides
+                    advice on such important matters as available specialised programmes, course sequences, possible combinations of Major and Minor fields, and recommended undergraduate studies leading to graduate studies.</p>
+
+            </div>
+            <div class="prog-holder mt-5" id="f1">
+                <div class=" prog-name">
+                    GRADUATION REQUIREMENTS
+                </div>
+                <div class="col-line"></div>
+            </div>
+            <div class="row">
+                <!-- <div class="col-md-7"> -->
+                A student is required to earn <strong> 182 </strong> credits to be able to graduate with a Bachelor’s degree in Mathematics. The 180 credits are distributed as follows:
+                <ol>
+                    <li> Compulsory university credits = <strong> 14 </strong> (NB: CSC100 has been dropped as the students are required to do more computer science as it is required in CSC100.) </li>
+                    <li> Departmental Compulsory credits = <strong> 102 </strong> (NB: MAT314 with 6 credits has been introduced to replace CSC100. This course is to help prepare students who will want to write entrance examinations to, e.g., Higher ENS, Polythechnique
+                        etc. Most of our graduates do write these exams) </li>
+                    <li> Departmental Elective credits = <strong> 30 </strong> </li>
+                    <li> Credits for Elective Courses = <strong> 36 </strong> </li>
+                </ol>
+                <p> The elective courses are determined partly by the Department and partly by the student to reflect the student’s interest and professional orientation. A student who wishes to graduate with a minor component to his/her major is expected
+                    to earn at least 36 credits from designated courses in an approved structured minor programme as part of the 54 credits allocated for elective courses. <br> Preferred minors for mathematics majors are Computer Science, Accountancy,
+                    Management, Curriculum studies, etc.
+                </p>
+            </div>
+            <!-- </div> -->
+            <div class="prog-holder mt-5" id="f1">
+                <div class=" prog-name">
+                    SKILLS TO BE ACQUIRED
+                </div>
+                <div class="col-line"></div>
+            </div>
+            <div class="row">
+                <!-- <div class="col-md-7"> -->
+                At the end of the programme the student is equipped with tools for mathematical techniques and thinking and can carryout basic mathematical instructions and principles in both pure and applied mathematics
+                <!-- </div> -->
+                <div class="prog-holder mt-5" id="f1">
+                    <div class=" prog-name">
+                        EMPLOYMENT OPPORTUNITIES
+                    </div>
+                    <div class="col-line"></div>
+                </div>
+                <div class="row">
+                    <!-- <div class="col-md-7"> -->
+                    A student with a good B.Sc. degree can pursue research in mathematics or related fields. However, graduates must have gained sufficient skills to be able to acquire employment as secondary school teachers, in the sector of information technology, in the
+                    banking and insurance sector, etc.
+                    <p> The Department of Mathematics offers instruction in the fields of Applied Mathematics, Pure Mathematics, and Statistics </p>
+                    <p> The undergraduate programme is designed to provide students with tools for mathematical techniques and thinking. Students at the early stages are exposed to basic mathematical processes and principles in both pure and applied mathematics.
+                        Consequently, the needs of mathematicians and users of mathematics in various Faculties of the University are satisfied.
+                    </p>
+                    <p> Mathematical sciences are, remarkably, permeating virtually every aspect of social, commercial, industrial, recreational and sporting life. In addition to working as a professional mathematician, computer scientist or statistician,
+                        a graduate can equally well develop a management career within one of a wide range of fields. Here, their intellectual training, combined with mathematical and modelling expertise, will provide a substantive asset in the modern
+                        world of science and technology. Although Mathematics is basically for students in the Faculty of Science, students in other Faculties can pursue them combined with other subjects of their choice, culminating in an honours degree
+                        in Mathematics.
+                    </p>
+                    <!-- </div> -->
+                </div>
+                <div class="prog-holder mt-5" id="f1">
+                    <div class=" prog-name">
+                        LIST OF COURSES
+                    </div>
+                    <div class="col-line"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>
+                            COMPULSORY COURSES
+                        </h1>
+                        <ul>
+                            <li>
+                                CSC 205: Introduction to Computer Science
+                            </li>
+                            <li> CSC 207: Introduction to Algorithms</li>
+                            <li> CSC 208: Programming in Python and C </li>
+                            <li> MAT 201: Calculus I </li>
+                            <li> MAT 202: Calculus II </li>
+                            <li> MAT 203: Abstract Algebra </li>
+                            <li> MAT 204: Linear Methods</li>
+                            <li> MAT 301: Analysis I</li>
+                            <li> MAT 302: Analysis II</li>
+                            <li> MAT 303: Linear Algebra I</li>
+                            <li> MAT 304: Linear Algebra II</li>
+                            <li> MAT 305: Mathematical Probability I</li>
+                            <li> MAT 306: Introduction to Mathematical Statistics</li>
+                            <li> MAT307: Introduction to Differential Equations</li>
+                            <li> MAT314: Analytic Geometry</li>
+                            <li> MAT 401: Analysis III</li>
+                            <li> MAT 402: General Topology</li>
+                            <li> MAT 416: Measure Theory and Integration</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h1>
+                            ELECTIVE COURSES
+                        </h1>
+                        <ul>
+                            <li>
+                                MAT 311: Analytical Mechanics
+                            </li>
+                            <li> MAT 312: Electromagnetism</li>
+                            <li> MAT 403: Set Theory</li>
+                            <li> MAT 404: Group Theory</li>
+                            <li> MAT 406: Mathematical Probability II</li>
+                            <li> MAT 407: Complex Analysis I</li>
+                            <li> MAT 409: Ordinary Differential Equations</li>
+                            <li> MAT 411: Analytical Dynamics</li>
+                            <li> MAT 412: Hydromechanics</li>
+                            <li> MAT 413: Affine and Projective Geometry</li>
+                            <li> MAT 415: Differential Geometry</li>
+                            <li> MAT 417 :Calculus of Variations</li>
+                            <li> MAT418: Numerical Methods</li>
+                            <li> MAT419: Elements of Stochastic Processes</li>
+                            <li> MAT 420: Elements of Queuing Theory</li>
+                            <li> MAT 421: Multivariate Statistics</li>
+                            <li> MAT 422: Introduction to Optimisation</li>
+                            <li> MAT423: Combinatorics and Graph Theory</li>
+                            <li> MAT498: Research Project</li>
+                        </ul>
+                    </div>
+                    <p> Besides the departmental elective courses above, a student can choose other elective courses from other departments. </p>
+                </div>
+                <div class="prog-holder mt-5" id="f2">
+                    <div class=" prog-name">
+                        Requirements for Minor
+                    </div>
+                    <div class="col-line"></div>
+                </div>
+                <div class="row">
+                    Students from other Departments who wish to have a minor in Mathematics must successfully complete at least the following courses:
+                    <div class="col-md-4">
+                        <h1>
+                            Minor in Mathematical Statistics
+                        </h1>
+                        <ul>
+                            <li> MAT 201: Calculus I</li>
+                            <li> MAT 202: Calculus II</li>
+                            <li> MAT 301: Analysis I</li>
+                            <li> MAT 302: Analysis II</li>
+                            <li> MAT 305: Mathematical Probability I</li>
+                            <li> MAT 306: Introduction to Mathematical Statistics</li>
+                            <li> MAT 406: Mathematical Probability II</li>
+                            <li> MAT419: Elements of Stochastic Processes </li>
+                            <li> MAT 421: Multivariate Statistics</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h1>
+                            Minor in Applied Mathematics
+                        </h1>
+                        <ul>
+                            <li> MAT 201: Calculus I</li>
+                            <li> MAT 202: Calculus II</li>
+                            <li> MAT 301: Analysis I</li>
+                            <li> MAT 302: Analysis II</li>
+                            <li> MAT 307: Introduction to Differential Equations</li>
+                            <li> MAT 409: Ordinary Differential Equations</li>
+                            <li> MAT418: Numerical Methods</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h1>Minor in Pure Mathematics </h1>
+                        <ul>
+                            <li> MAT 201: Calculus I</li>
+                            <li> MAT 202: Calculus II</li>
+                            <li> MAT 203: Abstract Algebra</li>
+                            <li> MAT 204: Linear methods</li>
+                            <li> MAT 301: Analysis I</li>
+                            <li> MAT 302: Analysis II</li>
+                            <li> MAT 303: Algebra I</li>
+                            <li> MAT 304: Linear Algebra II </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="prog-holder mt-5" id="f3">
+                    <div class=" prog-name">
+                        PROGRAMME STRUCTURE FOR THE B.Sc. HONOURS IN MATHEMATICS
+                    </div>
+                    <div class="col-line"></div>
+                </div>
+                <div class="row">
+                    <!-- <div class = "col-md-7"> -->
+
+                    <h1> YEAR: ONE</h1>
+                    <h3> FIRST SEMESTER</h3>
+
+                    <table>
+                        <tr>
+                            <th> COURSE CODE</th>
+                            <th> COURSE TITLE</th>
+                            <th> CREDIT VALUE</th>
+                            <th> STATUS</th>
+                            <th> L</th>
+                            <th> T</th>
+                            <th> P </th>
+                            <th> Prerequisites</th>
+                        </tr>
+                        <tr>
+                            <td> MAT 201</td>
+                            <td>Calculus I </td>
+                            <td> 6</td>
+                            <td>C</td>
+                            <td> 40</td>
+                            <td> 20</td>
+                            <td> 0</td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> MAT 203</td>
+                            <td> Abstract Algebra</td>
+                            <td> 6 </td>
+                            <td>C </td>
+                            <td> 40 </td>
+                            <td> 20 </td>
+                            <td> 0 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> CSC 203</td>
+                            <td> Introduction to Computer Science </td>
+                            <td> 6</td>
+                            <td> C </td>
+                            <td> 40</td>
+                            <td> 20</td>
+                            <td> 0</td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> *** </td>
+                            <td> Minor or Elective </td>
+                            <td> 6 </td>
+                            <td> C/E </td>
+                            <td> 40 </td>
+                            <td> 20 </td>
+                            <td> 0 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> SPT 100 </td>
+                            <td> Sports </td>
+                            <td> 2 </td>
+                            <td> C</td>
+                            <td> 00</td>
+                            <td> 00</td>
+                            <td> 20 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td> ENG 101 </td>
+                            <td> Use of English I </td>
+                            <td> 2</td>
+                            <td> C </td>
+                            <td> 10</td>
+                            <td> 10</td>
+                            <td> 0 </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td>FRE 101</td>
+                            <td> Functional French </td>
+                            <td> 2 </td>
+                            <td> C </td>
+                            <td> 10</td>
+                            <td> 10</td>
+                            <td> 0 </td>
+                            <td> </td>
+                        </tr>
+                    </table>
+                    <!-- </div> -->
+                </div>
+    </main>
+
+    <!-- footer -->
+
+    <footer class="mt-4" id="footer">
+        <div class="container py-5">
+            <div class="row py-4">
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="../../images/ub_logo_extract.png" alt="" width="180" class="mb-3">
+                    <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <ul class="list-inline mt-4">
+                        <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i
+                                    class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i
+                                    class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i
+                                    class="fa fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i
+                                    class="fa fa-pinterest"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i
+                                    class="fa fa-vimeo"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4"></h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="./news.html" class="text-muted">Upcoming Events</a></li>
+                        <li class="mb-2"><a href="./people.html" class="text-muted">Department Staff</a></li>
+                        <li class="mb-2"><a href="./programmes.html" class="text-muted">Programmes</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4">Address</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="#" class="text-muted">University of Buea</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">Molyko, Buea.</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">dept.maths@email.com</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">+237 6XX XXX XXX</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+                    <p class="text-muted mb-4">Subscribe to receive updates from the Department</p>
+                    <div class="p-1 rounded border">
+                        <div class="input-group">
+                            <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0 bg-dark">
+                            <div class="input-group-append">
+                                <button id="button-addon1" type="submit" class="btn btn-link"><i
+                                        class="fa fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small text-muted my-3">
+                        <span>&#169;</span> 2021 <a class="text-warning" href="https://www.ubea.cm"> &nbsp;
+                            University of Buea</a>. All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
